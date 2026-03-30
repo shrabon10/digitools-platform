@@ -1,12 +1,12 @@
 import React from 'react';
-import shoppingimg from '../assets/shoppingcart01.png'
+import shoppingimg from '../assets/shoppingcart01.png';
 
 const Navbar = ({ carts }) => {
     return (
         <div className="navbar container mx-auto ">
             <div className="navbar-start">
                 <div className="flex items-center gap-1 font-bold text-4xl bg-gradient-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent ">
-                     DigTools
+                    DigTools
                 </div>
             </div>
             <div className="navbar-center hidden sm:hidden md:flex lg:flex">
@@ -29,21 +29,23 @@ const Navbar = ({ carts }) => {
                 </ul>
             </div>
             <div className="navbar-end gap-5">
-                <div className='relative'>
-                    <img className='w-5 h-auto' src= {shoppingimg} />
-                    {carts.length > 0 &&
-                                <div className='absolute top-[-10px] right-[-11px] bg-red-400 w-5 h-5 rounded-full flex justify-center items-center'>
-                                    <p className='text-white font-semibold'>{carts.length}</p>
-                                </div>}
-                    
+                <div className="relative">
+                    <img className="w-5 h-auto" src={shoppingimg} />
+                    {carts.length > 0 && (
+                        <div className="absolute top-[-10px] right-[-11px] bg-red-400 w-5 h-5 rounded-full flex justify-center items-center">
+                            <p className="text-white font-semibold">
+                                {carts.length}
+                            </p>
+                        </div>
+                    )}
                 </div>
 
-
-                <ul><li>login</li></ul>
+                <ul>
+                    <li>login</li>
+                </ul>
                 <a className="btn bg-gradient-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">
                     Get in Touch
                 </a>
-                
             </div>
         </div>
     );

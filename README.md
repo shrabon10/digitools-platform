@@ -1,148 +1,125 @@
-# 🛍️ DigiTools - React E-commerce UI
+# 🚀 DigiTools Platform
 
-## 📌 Project Overview
-
-**DigiTools** is a modern and responsive e-commerce-style web application built using React. It allows users to browse digital products, add them to a cart, remove items, and proceed to checkout — all with a smooth and interactive user experience.
+A modern React-based web application for showcasing and exploring premium digital tools. Built with **React + Vite + Tailwind CSS**, this project focuses on clean UI, responsive design, and reusable components.
 
 ---
 
-## 🚀 Live Features
+## 📸 Preview
 
-* 🧭 **Navbar with Cart Count**
-
-  * Displays real-time number of selected products
-
-* 🎯 **Product Section**
-
-  * View all products in a responsive 3-column layout
-  * Each product includes:
-
-    * Name, Description
-    * Price & Billing Period
-    * Tag (Popular, New, Best Seller)
-    * Features list
-    * Icon
-    * Buy Now button
-
-* 🔄 **Toggle System**
-
-  * Switch between **Products** and **Cart**
-  * Default view: Products
-
-* 🛒 **Cart Functionality**
-
-  * Add products to cart
-  * Prevent duplicate items
-  * Remove individual items
-  * Proceed to checkout (clears cart)
-
-* 🔔 **Toast Notifications**
-
-  * Add to cart
-  * Remove item
-  * Checkout success
-
-* 📱 **Fully Responsive Design**
-
-  * Works smoothly on mobile, tablet, and desktop
+A clean and modern UI featuring:
+- Hero banner
+- Product showcase
+- Pricing section
+- Step-by-step guide
+- CTA (Call to Action)
+- Fully responsive layout
 
 ---
 
-## ⚙️ Technologies Used
+## 🛠️ Tech Stack
 
-* ⚛️ React.js
-* 🎨 Tailwind CSS
-* 🌼 DaisyUI
-* 🧠 JavaScript (ES6+)
-* 🔔 React Toastify
-* 📦 JSON (for product data)
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🧩 DaisyUI (optional UI components)
+- 📦 JavaScript (ES6+)
 
 ---
 
 ## 📂 Project Structure
 
-```
-src/
- ├── components/
- │   ├── Navbar.jsx
- │   ├── Products.jsx
- │   ├── ProductCard.jsx
- │   ├── Cart.jsx
- ├── data/
- │   └── products.json
- ├── App.jsx
- └── main.jsx
-```
+
+DIGITOOLS-PLATFORM/
+│
+├── dist/
+│ ├── assets/
+│ ├── data.json
+│ ├── favicon.svg
+│ ├── icons.svg
+│ └── index.html
+│
+├── public/
+│
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── Carts/
+│ │ │ ├── Carts.jsx
+│ │ │ ├── Banner.jsx
+│ │ │ ├── Footer.jsx
+│ │ │ ├── InfoStrip.jsx
+│ │ │ ├── Navbar.jsx
+│ │ │ ├── ProductCard.jsx
+│ │ │ ├── Products.jsx
+│ │ │ ├── Start.jsx
+│ │ │ ├── TabSection.jsx
+│ │ │ └── Transparent.jsx
+│ │
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.css
+│ └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
 
 ---
 
-## 📦 Installation & Setup
+## ✨ Features
 
-Follow these steps to run the project locally:
+- 📱 Fully responsive design
+- 🎯 Clean UI with modern layout
+- 🧩 Reusable React components
+- 💜 Gradient-based design system
+- ⚡ Fast performance using Vite
+- 📦 Organized folder structure
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/digitools.git
-
-# Navigate to project folder
-cd digitools
-
-# Install dependencies
+git clone https://github.com/your-username/digitools-platform.git
+cd digitools-platform
+2️⃣ Install dependencies
 npm install
-
-# Run the development server
+3️⃣ Run the development server
 npm run dev
-```
+4️⃣ Build for production
+npm run build
+📌 Key Components
+Navbar.jsx → Navigation bar
+Banner.jsx → Hero section
+Products.jsx → Product listing
+ProductCard.jsx → Individual product card
+Start.jsx → Step-by-step section
+Transparent.jsx → Pricing section
+Footer.jsx → Footer
+🎨 UI Highlights
+Gradient buttons and backgrounds
+Card-based layout
+Pricing cards with highlight plan
+CTA section for conversion
+Smooth spacing & typography
+📄 License
 
----
+This project is open-source and available under the MIT License.
 
-## 🧪 How It Works
+🙌 Author
 
-* Products are loaded from a local JSON file
-* Clicking **Buy Now** adds a product to the cart
-* Duplicate items are prevented with a check
-* Cart updates instantly and reflects in Navbar
-* Toast messages provide user feedback
-* Checkout button clears the cart completely
+Omor Faruk Shrabon
 
----
+⭐ Support
 
-## ✨ Key Features
+If you like this project, give it a ⭐ on GitHub!
 
-1. 🛒 **Dynamic Cart System**
-2. 🔄 **Product & Cart Toggle View**
-3. 🔔 **Real-time Toast Notifications**
 
----
 
-## 📸 UI Sections Included
 
-* Navbar
-* Product Cards
-* Cart Section
-* Toggle Buttons
-* (Optional) Banner, Stats, Pricing, Footer
 
----
 
-## 💡 Future Improvements
-
-* 💳 Payment integration
-* 🔐 User authentication
-* 🌙 Dark mode support
-* 📊 Backend integration (API)
-
----
-
-## 🙌 Author
-
-**Omor Faruk**
-Frontend Developer | React Enthusiast
-
----
-
-## ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub!
-
----

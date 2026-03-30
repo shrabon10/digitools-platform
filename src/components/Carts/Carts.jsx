@@ -1,5 +1,7 @@
 import React from 'react';
 import { toast } from 'react-toastify/unstyled';
+import cartimg from '../../assets/shoppingcart01.png'
+import { CiShoppingCart } from 'react-icons/ci';
 
 const Carts = ({ carts, setCarts }) => {
     const totalPrice = carts.reduce((sum, item) => sum + item.price, 0)
@@ -15,7 +17,16 @@ const Carts = ({ carts, setCarts }) => {
         <section className="">
             {
                 carts.length === 0
-                    ? <h2 className="text-4xl font-bold text-center py-15 text-black/60">No Items Here</h2>
+                    ? <div className="flex flex-col items-center justify-center h-[60vh] text-center">
+    <img src={cartimg} className="w-40 opacity-60 mb-4" /> 
+    
+
+    <h2 className="text-3xl font-bold text-black/60">
+        No Items Here
+    </h2>
+</div>
+                        
+                        
 
                     : <div className="mt-5 mb-20 border border-gray-500/40 shadow-sm rounded-xl container mx-auto">
                         <div className="p-6 space-y-5">
