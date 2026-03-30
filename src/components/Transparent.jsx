@@ -74,7 +74,7 @@ const Transparent = () => {
       </div>
 
       {/* Enterprise */}
-      <div className="bg-white rounded-2xl shadow-md p-8 flex flex-col h-full">
+      <div className="bg-white rounded-2xl shadow-md p-7 flex flex-col h-full">
         <h3 className="font-bold text-lg">Enterprise</h3>
         <p className="text-gray-400 text-sm mb-4">
           For teams and businesses
