@@ -57,7 +57,7 @@ const ProductCard = ({ product, carts, setCarts }) => {
                         <button
                             onClick={handleBuyNow}
                             className={`btn py-7  rounded-full text-white text-lg font-bold btn-block 
-                                ${isBuy ? "bg-green-600" : "primary-bg"} `}
+                                ${isBuy ? "bg-green-600" : "bg-gradient-to-r from-[#4f39f6] to-[#9514fa]"} `}
                         >{isBuy ? <h2 className='flex items-center gap-3'><FaCheck /> Added to Cart!</h2> : "Buy Now"}</button>
                     </div>
                 </div>

@@ -10,14 +10,14 @@ const TabSection = ({activeTab, setActiveTab, carts}) => {
             <div className="mt-5 tabs tabs-box flex justify-center items-center gap-5 bg-transparent">
                 <input
                     type="radio" name="my_tabs_1"
-                    className={`tab rounded-full px-7 text-lg font-bold ${activeTab === 'product' ? "primary-bg text-white" : "text-black"} `}
+                    className={`tab rounded-full px-7 text-lg font-bold ${activeTab === 'product' ? "bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white" : "text-black"} `}
                     aria-label="Products"
                     onClick={() => setActiveTab("product")}
                     defaultChecked />
                 <input
                     type="radio"
                     name="my_tabs_1"
-                    className={`tab rounded-full px-7 text-lg font-bold ${activeTab === 'cart' ? "primary-bg text-white" : "text-black"} `}
+                    className={`tab rounded-full px-7 text-lg font-bold ${activeTab === 'cart' ? "bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white" : "text-black"} `}
                     aria-label={`Cart (${carts.length})`}
                     onClick={() => setActiveTab("cart")} />
             </div>

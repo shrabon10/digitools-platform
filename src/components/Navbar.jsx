@@ -1,7 +1,7 @@
 import React from 'react';
 import shoppingimg from '../assets/shoppingcart01.png'
 
-const Navbar = () => {
+const Navbar = ({ carts }) => {
     return (
         <div className="navbar container mx-auto ">
             <div className="navbar-start">
@@ -29,7 +29,14 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-5">
-                <img src= {shoppingimg} />
+                <div className='relative'>
+                    <img className='w-5 h-auto' src= {shoppingimg} />
+                    {carts.length > 0 &&
+                                <div className='absolute top-[-10px] right-[-11px] bg-red-400 w-5 h-5 rounded-full flex justify-center items-center'>
+                                    <p className='text-white font-semibold'>{carts.length}</p>
+                                </div>}
+                    
+                </div>
 
 
                 <ul><li>login</li></ul>

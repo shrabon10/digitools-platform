@@ -43,7 +43,7 @@ const Carts = ({ carts, setCarts }) => {
                                 <h2 className="text-3xl font-extrabold">${totalPrice}</h2>
                             </div>
 
-                            <button onClick={() => {setCarts([]); toast.success("Proceed to Checkout.")}} className="btn primary-bg w-full rounded-full text-white text-xl font-bold py-8">Proceed To Checkout</button>
+                            <button onClick={() => {setCarts([]); toast.success("Proceed to Checkout.")}} className="btn bg-gradient-to-r from-[#4f39f6] to-[#9514fa] w-full rounded-full text-white text-xl font-bold py-8">Proceed To Checkout</button>
                         </div>
                     </div>
             }
