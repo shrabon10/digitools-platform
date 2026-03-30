@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Starter Resume Kit",
+        "description": "Simple resume creation tool for freshers with clean templates.",
+        "price": 9,
+        "period": "One-Time",
+        "tag": "New",
+        "features": [
+            "10+ ready templates",
+            "Easy customization",
+            "Download as PDF"
+        ],
+        "icon": "📄"
+    },
+    {
+        "id": 2,
+        "name": "Pro Resume Builder",
+        "description": "Professional resume maker with ATS-optimized layouts.",
+        "price": 19,
+        "period": "Monthly",
+        "tag": "Popular",
+        "features": [
+            "100+ premium templates",
+            "ATS-friendly format",
+            "Cover letter support"
+        ],
+        "icon": "🧑‍💼"
+    },
+    {
+        "id": 3,
+        "name": "Career Boost Pack",
+        "description": "Complete package to enhance your job search success.",
+        "price": 49,
+        "period": "One-Time",
+        "tag": "Best seller",
+        "features": [
+            "Resume & cover letter",
+            "LinkedIn improvements",
+            "Interview guidance"
+        ],
+        "icon": "🚀"
+    },
+    {
+        "id": 4,
+        "name": "LinkedIn Optimizer",
+        "description": "Boost your LinkedIn presence with smart optimization tools.",
+        "price": 12,
+        "period": "Monthly",
+        "tag": "Popular",
+        "features": [
+            "Profile analysis",
+            "SEO keywords",
+            "Headline creator"
+        ],
+        "icon": "🔗"
+    },
+    {
+        "id": 5,
+        "name": "Portfolio Builder",
+        "description": "Build modern and attractive personal portfolios effortlessly.",
+        "price": 29,
+        "period": "Yearly",
+        "tag": "New",
+        "features": [
+            "Custom domain support",
+            "Drag & drop editor",
+            "SEO optimization"
+        ],
+        "icon": "🌐"
+    },
+    {
+        "id": 6,
+        "name": "Interview Prep AI",
+        "description": "AI-powered mock interviews with real-time feedback.",
+        "price": 15,
+        "period": "Monthly",
+        "tag": "Best seller",
+        "features": [
+            "Practice interviews",
+            "Smart AI feedback",
+            "Question library"
+        ],
+        "icon": "🤖"
+    },
+    {
+        "id": 7,
+        "name": "Freelancer Starter Pack",
+        "description": "Kickstart your freelancing journey with essential tools.",
+        "price": 39,
+        "period": "One-Time",
+        "tag": "Popular",
+        "features": [
+            "Proposal examples",
+            "Client communication",
+            "Gig ranking tips"
+        ],
+        "icon": "💼"
+    },
+    {
+        "id": 8,
+        "name": "Ultimate Career Suite",
+        "description": "Complete career solution for professionals and job seekers.",
+        "price": 99,
+        "period": "Yearly",
+        "tag": "Best seller",
+        "features": [
+            "Full access to all tools",
+            "Priority assistance",
+            "Unlimited downloads"
+        ],
+        "icon": "🔥"
+    },
+    {
+        "id": 9,
+        "name": "Job Hunter Pro Kit",
+        "description": "Advanced toolkit designed to maximize your job opportunities.",
+        "price": 59,
+        "period": "One-Time",
+        "tag": "New",
+        "features": [
+            "Resume + LinkedIn boost",
+            "Interview preparation",
+            "Job tracking tools"
+        ],
+        "icon": "🎯"
+    }
+]

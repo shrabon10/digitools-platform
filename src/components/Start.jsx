@@ -4,7 +4,7 @@ import userimg2 from '../assets/choose.png'
 import userimg3 from '../assets/rocket.png'
 
 
-const Product = () => {
+const Start = () => {
     return (
         <section className="py-20 ">
   <div className="px-6 container mx-auto">
@@ -87,4 +87,4 @@ const Product = () => {
     );
 };
 
-export default Product;
+export default Start;
